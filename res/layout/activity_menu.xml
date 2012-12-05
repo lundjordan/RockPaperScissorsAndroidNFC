@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu" >
+
+   	<Button
+   	    android:id="@+id/multiplayer"
+   	    style="@style/ButtonText"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_below="@+id/play"
+   	    android:background="@drawable/btn_black"
+   	    android:text="Multiplayer" />
+
+   	<Button
+   	    android:id="@+id/rules"
+   	    style="@style/ButtonText"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_below="@+id/multiplayer"
+   	    android:layout_marginTop="300dp"
+   	    android:background="@drawable/btn_black"
+   	    android:text="Rules" />
+
+   	<Button
+   	    android:id="@+id/play"
+   	    style="@style/ButtonText"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_centerVertical="true"
+   	    android:background="@drawable/btn_black"
+   	    android:text="Single" />
+
+</RelativeLayout>
